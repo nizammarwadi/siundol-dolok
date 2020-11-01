@@ -39,7 +39,6 @@
                         </div>
                         <div class="form-group flex-auto">
                             <button type="submit" class="btn btn-primary">submit</button>
-                            <button type="submit" class="btn btn-primary">login</button>
                         </div>
                     </form>
                 </div>

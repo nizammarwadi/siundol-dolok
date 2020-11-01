@@ -65,6 +65,9 @@ export default {
         font-style: italic;
        
     }
+    .copyright p{
+        margin-top: 5px;
+    }
     .address img {
         width: 30px;
         height: 30px;
@@ -85,6 +88,18 @@ export default {
             padding: 20px 45px;
             max-width: 100%;
 
+        }
+        .copyright p{
+            max-width: 100%;
+            text-align: center;
+            font-size: 10px;
+        
+        }
+        .contact h2{
+            font-size: 23px;
+        }
+        .contact p{
+            font-size: 14px;
         }
     }
         

@@ -53,4 +53,9 @@ export default {
             max-width: 70%;
         }
     }
+    @media (max-width: 992px) {
+        p,li{
+            font-size: 14px;
+        }
+    }
 </style>

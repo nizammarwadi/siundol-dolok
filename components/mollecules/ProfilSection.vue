@@ -31,10 +31,10 @@ export default {
     .content{
         font-size: 20px;
     }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 680px) {
         .profil .content p{
             max-width: 100%;
-            font-size: 20px;
+            font-size: 14px;
             text-align: justify;
             padding: 0px 20px;
             

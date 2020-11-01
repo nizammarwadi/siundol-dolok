@@ -72,11 +72,18 @@ export default {
        /*  object-fit: ; */
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 680px) {
         h1{
             width: 100%;
-            font-size: 30px;
+            font-size: 23px;
+        }
+        .lead{
+            font-size: 14px;
 
+        }
+        .carousel-item img{
+            width: 100%;
+            height: 350px;
         }
    } 
 
