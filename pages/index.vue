@@ -10,6 +10,7 @@
     <!-- <NewsSection/> -->
     <Footer/>
 
+
   </div>
 </template>
 

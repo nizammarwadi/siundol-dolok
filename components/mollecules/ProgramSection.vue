@@ -1,25 +1,24 @@
 <template>
     <section id="program" class="program bg-light">
         <div class="program-title text-center">
-            <h2>PROGRAM</h2>
+            <h2>VISI DAN MISI</h2>
             <hr>
         </div>
         <div class="program-content">
             <div class="visi-content">
                 <h4 class="title text-center">VISI</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.  
-                    quae est consequuntur eaque. Nemo amet quae est consequuntur eaque. consequuntur eaque
+                <p><b><i>"Mewujudkan Masyarakat Desa Siundol Dolok Yang Sejahtera, Mandiri, Beriman, Cerdas, Beradat, Damai dan Harmonis"</i></b>
                 </p>
             </div>
             <div class="misi-content">
                 <h4 class="title text-center">MISI</h4>
-                <ul>
-                    <li>Ketuhanan yang maha esa</li>
-                    <li>Kemanusian yang adil dan beradab</li>
-                    <li>Persatuan Indonesia</li>
-                    <li>Kerakyatan yang di pimpin oleh hikmat kebijaksanan dalam permusyawaratan/ perwakilan</li>
-                    <li>Keadilan sosial bagi seluruh rakyat Indonesia</li>
-                </ul>
+                <ol>
+                    <li>Meningkatkan Pendapatan Masyarakat Yang Mandiri</li>
+                    <li>Meningkatkan Usaha Pertanian</li>
+                    <li>Membuka Lapangan Kerja</li>
+                    <li>Mewujudkan Pemerintahan Yang Bersih</li>
+                    <li>Meningkatkan dan Mengelola Pendapatan Asli Daerah</li>
+                </ol>
             </div>
         </div>
     </section>

@@ -23,11 +23,9 @@
                         PEMDES
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Kepala Desa</a>
-                        <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Struktur Desa</a>
                         <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Perangkat desa</a>
+                            <a class="dropdown-item" href="#">BPD</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown ">
@@ -37,9 +35,9 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Visi dan Misi</a>
                         <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Future</a>
+                            <a class="dropdown-item" href="#">RPJM DESA</a>
                         <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Planning</a>
+                            <a class="dropdown-item" href="#">RPJP DESA</a>
                         </div>
                     </li>
                     <li class="nav-item">

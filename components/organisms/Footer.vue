@@ -7,7 +7,7 @@
                     <p>
                         Pemerintah Desa Siundol Dolok<br>
                         Jl. Lintas Sosopan Desa Siundol Dolok<br>
-                        Kecamatan Sosopan Kabupaten Padang Lawas, Sumatera Utara
+                        Kecamatan Sosopan Kabupaten Padang Lawas, Sumatera Utara, Indonesia
                     </p>
                 </div>
                 <div class="address-image">
@@ -19,8 +19,8 @@
             </div>
                 <div class="contact-phone">
                     <h2>Phone</h2>
-                    <p>0823-6257-4353 | Nizam<br>
-                    0823-6257-5333 | Raden</p>
+                    <p><a href="https://wa.me/082166777234" target="_blank">0821-6677-7234 </a>| H. Raden Saleh Hasibuan,SH<br>
+                    <a href="https://wa.me/082362574353" target="_blank">0823-6257-4353 </a>| H. Nizam M Hasibuan,S.Kom</p>
                 </div>
                 <div class="contact-email">
                     <h2>Email</h2>
@@ -29,7 +29,7 @@
         </section>
         <section class="patent">            
             <div class="copyright">
-                <p>©Copyright 2020 SIUNDOL DOLOK. All right reserved. Crafted with love by Engineers</p>
+                <p>©Copyright 2020 SIUNDOL DOLOK. All right reserved. Crafted with love by Engineer</p>
             </div>     
         </section>
     </footer>
@@ -49,9 +49,11 @@ export default {
         align-items: baseline;
     }
     .contact {
-        background-color: #eaeaea;
+        background-color: #131313;
         padding: 20px 80px;
-        color: #333;
+        color: #bbb;
+        /* color: #333; */
+        
     
     }
     .copyright {
@@ -60,8 +62,8 @@ export default {
         margin-top: -1rem;
         color: white;
         text-align: center;
-        font-size: 12px;
-        background-color: #212529;
+        font-size: 11px;
+        background-color: #0B090A;
         font-style: italic;
        
     }
@@ -85,14 +87,14 @@ export default {
             margin-bottom: 15px;
         }
         .contact{
-            padding: 20px 45px;
+            padding: 20px 10px;
             max-width: 100%;
 
         }
         .copyright p{
             max-width: 100%;
             text-align: center;
-            font-size: 10px;
+            font-size: 7px;
         
         }
         .contact h2{
