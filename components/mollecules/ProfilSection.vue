@@ -23,35 +23,34 @@ export default {
 </script>
 
 <style>
-    h3{
+    .profil .title h3{
         text-align: center;
+        font-weight: bold;
+        font-size: 27px;
+        padding: 10px 0px;
     }
     .profil{
-        margin: 30px auto 40px;
-        max-width: 1000px;
-        text-align: justify;
+        margin: 0px auto;
+        padding: 70px 0px;
+        text-align: center;
     }
-    .content{
-        font-size: 20px;
+    .content p{
+        font-size: 18px;
+        text-align: center;
+        width: 1000px;
+        margin: 0px auto;
+        font-weight: bold;
     }
-    @media only screen and (max-width: 680px) {
+    @media only screen and (max-width: 992px) {
         .profil .content p{
-            max-width: 100%;
-            font-size: 14px;
-            text-align: justify;
-            padding: 0px 20px;
+            max-width: 90%;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+            
             
 
         }
-       /*  .content p {
-            font-size: 18px;
-            width: 100%;
-            margin: 0px 0px;
-            padding: 0px 20px;
-            
-            
-
-        } */
     }
 
 </style>

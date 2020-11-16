@@ -1,24 +1,28 @@
 <template>
-    <section id="program" class="program bg-light">
+    <section id="program" class="program">
         <div class="program-title text-center">
             <h2>VISI DAN MISI</h2>
-            <hr>
         </div>
         <div class="program-content">
-            <div class="visi-content">
-                <h4 class="title text-center">VISI</h4>
-                <p><b><i>"Mewujudkan Masyarakat Desa Siundol Dolok Yang Sejahtera, Mandiri, Beriman, Cerdas, Beradat, Damai dan Harmonis"</i></b>
-                </p>
+            <div class="visi-left">
+                <p>"Mewujudkan Masyarakat Desa Siundol Dolok Yang Sejahtera, Mandiri, Beriman, Cerdas, Beradat, Damai dan Harmonis"</p>
             </div>
-            <div class="misi-content">
-                <h4 class="title text-center">MISI</h4>
+            <div class="visi-right">
+                <img src="~/assets/image/visi.svg">
+            </div>
+        </div>
+        <div class="program-content">
+            <div class="misi-left">
                 <ol>
                     <li>Meningkatkan Pendapatan Masyarakat Yang Mandiri</li>
                     <li>Meningkatkan Usaha Pertanian</li>
                     <li>Membuka Lapangan Kerja</li>
                     <li>Mewujudkan Pemerintahan Yang Bersih</li>
                     <li>Meningkatkan dan Mengelola Pendapatan Asli Daerah</li>
-                </ol>
+                </ol>        
+            </div>
+            <div class="misi-right">
+                <img src="~/assets/image/bisnis.svg">
             </div>
         </div>
     </section>
@@ -32,29 +36,74 @@ export default {
 
 <style>
     .program{
-        padding: 20px 0px;
+        padding: 70px 0px;
+        background-color: #f8f9fa;
+    }
+    .program-title h2 {
+        font-weight: bold;
+        font-size: 27px;
     }
     .program-content {
         display: flex;
         justify-content: space-around;
+        align-items: center;
         margin: 0px auto;
         max-width: 70rem;
+        padding: 120px 0px;
     }
-    .visi-content{
+    .visi-left{
         max-width: 450px;
     }
-    .misi-content{
+    .visi-left p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .visi-right img {
+        max-width: 350px;
+        border-radius: 90px 10px 20px 0px;
+    }
+    .misi-right img {
         max-width: 450px;
+        margin-left: 100px;
+    }
+    .misi-left {
+        max-width: 600px;
+    }
+    .misi-left ol li {
+        font-weight: bold;
+        font-size: 20px;
     }
     @media (max-width: 992px) {
         .program-content {
             display: block;
-            max-width: 70%;
+            width: 80%;
+            padding: 0px 0px;
+        }
+        .visi-right img {
+            width: 80%;
+            margin: 20px auto 100px;
+            
+        }
+        .misi-right img {
+            width: 100%;
+            margin-top: 30px; 
+            margin-left: 0px;   
+        }
+        .visi-left p {
+            width: 100%;
+            text-align: center;
+            padding: 10px 0px;
+            font-size: 15px;
+            font-style: italic;
+        }
+        .misi-left ol  {
+            width: 100%;
+            padding: 0px 0px;
+            margin: 0px 0px;
+        }
+        .misi-left ol li {
+            font-size: 15px;
         }
     }
-    @media (max-width: 992px) {
-        p,li{
-            font-size: 14px;
-        }
-    }
+    
 </style>

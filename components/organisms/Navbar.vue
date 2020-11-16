@@ -18,15 +18,9 @@
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger text-white" href="login">PROFIL</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        PEMDES
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Struktur Desa</a>
-                        <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">BPD</a>
-                        </div>
+                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger text-white" href="#keuangan">PEMDES</a>
+                    </li>
                     </li>
                     <li class="nav-item dropdown ">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -19,8 +19,8 @@
             </div>
                 <div class="contact-phone">
                     <h2>Phone</h2>
-                    <p><a href="https://wa.me/082166777234" target="_blank">0821-6677-7234 </a>| H. Raden Saleh Hasibuan,SH<br>
-                    <a href="https://wa.me/082362574353" target="_blank">0823-6257-4353 </a>| H. Nizam M Hasibuan,S.Kom</p>
+                    <p><a href="https://wa.me/082166777234" target="_blank">0821-6677-7234 </a>| Raden Saleh Hasibuan, SH<br>
+                    <a href="https://wa.me/082362574353" target="_blank">0823-6257-4353 </a>| Nizam M Hasibuan, S.Kom</p>
                 </div>
                 <div class="contact-email">
                     <h2>Email</h2>
@@ -48,13 +48,18 @@ export default {
         justify-content: space-between;
         align-items: baseline;
     }
+    .contact h2 {
+        font-weight: bold;
+        font-size: 27px;
+    }
+    .contact p {
+        font-size: 17px;
+    }
     .contact {
         background-color: #131313;
-        padding: 20px 80px;
+        padding: 50px 80px;
         color: #bbb;
-        /* color: #333; */
-        
-    
+        /* color: #333; */ 
     }
     .copyright {
         height: 45px;
@@ -73,7 +78,7 @@ export default {
     .address img {
         width: 30px;
         height: 30px;
-        object-fit: cover   ;
+        object-fit: cover;
     }
     .address img:hover {
         width: 35px;
@@ -87,7 +92,7 @@ export default {
             margin-bottom: 15px;
         }
         .contact{
-            padding: 20px 10px;
+            padding: 40px 25px;
             max-width: 100%;
 
         }

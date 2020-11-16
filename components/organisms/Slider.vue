@@ -12,7 +12,7 @@
                 <div class="carousel-caption d-sm-block ">
                     <h1 class="display-none">SELAMAT DATANG DI WEBSITE KAMI</h1>
                     <p class="lead">Pusat Pelayanan Informasi Masyarakat Desa Siundol Dolok</p>
-                     <ButtonElement
+                    <ButtonElement
                         titleBtn="KUNJUNGI"
                     />
                 </div>
@@ -56,10 +56,6 @@ export default {
 </script>
 
 <style>
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
     .slider {
         width: 100%;
     }
@@ -68,14 +64,22 @@ export default {
     }
     .carousel-item img {
         height: 550px;
-        
-       /*  object-fit: ; */
     }
-
+    .carousel-caption h1 {
+        font-weight: bold;
+        font-size: 37px;
+    }
+    .carousel-caption p {
+        font-size: 18px;
+    }
     @media only screen and (max-width: 680px) {
-        h1{
+        .slider h1{
             width: 100%;
-            font-size: 23px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .slider p {
+            font-size: 15px;
         }
         .lead{
             font-size: 14px;

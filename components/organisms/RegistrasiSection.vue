@@ -54,6 +54,18 @@ export default {
 </script>
 
 <style>
-    
+.registrasi {
+    padding: 70px 0px;
+}
+.col h2 {
+    font-weight: bold;
+    font-size: 27px;
+}
+@media(max-width: 768px) {
+    .registrasi {
+        width: 80%;
+        margin: 0px auto;
+    }
+}   
 
 </style>
