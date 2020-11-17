@@ -1,10 +1,11 @@
 <template>
     <section id="program" class="program">
         <div class="program-title text-center">
-            <h2>VISI DAN MISI</h2>
+            <h2>PROGRAM</h2>
         </div>
         <div class="program-content">
             <div class="visi-left">
+                <h2>VISI</h2>
                 <p>"Mewujudkan Masyarakat Desa Siundol Dolok Yang Sejahtera, Mandiri, Beriman, Cerdas, Beradat, Damai dan Harmonis"</p>
             </div>
             <div class="visi-right">
@@ -13,6 +14,7 @@
         </div>
         <div class="program-content">
             <div class="misi-left">
+                <h2>MISI</h2>
                 <ol>
                     <li>Meningkatkan Pendapatan Masyarakat Yang Mandiri</li>
                     <li>Meningkatkan Usaha Pertanian</li>
@@ -35,8 +37,11 @@ export default {
 </script>
 
 <style>
+    .program-title h2 {
+        margin-bottom: 30px;
+    }
     .program{
-        padding: 70px 0px;
+        padding: 80px 0px;
         background-color: #f8f9fa;
     }
     .program-title h2 {
@@ -51,6 +56,11 @@ export default {
         max-width: 70rem;
         padding: 120px 0px;
     }
+    .program-content h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 27px;
+    }
     .visi-left{
         max-width: 450px;
     }
@@ -63,8 +73,8 @@ export default {
         border-radius: 90px 10px 20px 0px;
     }
     .misi-right img {
-        max-width: 450px;
-        margin-left: 100px;
+        max-width: 500px;
+        padding-left: 120px;
     }
     .misi-left {
         max-width: 600px;
@@ -82,27 +92,34 @@ export default {
         .visi-right img {
             width: 80%;
             margin: 20px auto 100px;
+           margin-left: 30px;
             
         }
         .misi-right img {
             width: 100%;
             margin-top: 30px; 
-            margin-left: 0px;   
+            margin-left: 20px;
+            padding: 0px 0px;
         }
         .visi-left p {
             width: 100%;
             text-align: center;
-            padding: 10px 0px;
+            padding: 0px 0px;
             font-size: 15px;
             font-style: italic;
         }
-        .misi-left ol  {
+        .misi-left ol li {
             width: 100%;
             padding: 0px 0px;
             margin: 0px 0px;
         }
         .misi-left ol li {
             font-size: 15px;
+        }
+        .program-content h2 {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
         }
     }
     

@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer">
+    <footer id="footer" class="footer">
         <section class="contact">
             <div class="address">
                 <div class="address-title">
@@ -94,6 +94,7 @@ export default {
         .contact{
             padding: 40px 25px;
             max-width: 100%;
+            text-align: center;
 
         }
         .copyright p{

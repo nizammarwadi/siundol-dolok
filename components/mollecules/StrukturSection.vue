@@ -1,5 +1,5 @@
 <template>
-    <section class="struktur">
+    <section id="struktur" class="struktur">
         <div class="title">
             <h3>PEMERINTAHAN DESA</h3>
         </div>
@@ -41,6 +41,9 @@ export default {
         }
         .struktur {
             padding: 0px 20px;
+        }
+        .struktur .title{
+            padding-top: 70px;
         }
     }
    /*  @media (min-width: 768px) {

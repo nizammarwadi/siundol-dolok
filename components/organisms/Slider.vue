@@ -1,5 +1,5 @@
 <template>
-    <div class="slider">
+    <div id="slider" class="slider">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -13,7 +13,7 @@
                     <h1 class="display-none">SELAMAT DATANG DI WEBSITE KAMI</h1>
                     <p class="lead">Pusat Pelayanan Informasi Masyarakat Desa Siundol Dolok</p>
                     <ButtonElement
-                        titleBtn="KUNJUNGI"
+                        titleBtn="HUBUNGI"
                     />
                 </div>
                 </div>

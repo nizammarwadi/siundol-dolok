@@ -1,5 +1,5 @@
 <template>
-  <section class="profil">
+  <section id="profil" class="profil">
         <div class="title">
             <h3>PROFIL</h3>
         </div>
@@ -8,9 +8,8 @@
                 dari Desa <i>Paringgonan Julu Luhut Paringgonan</i>, penamaan Desa Siundol Dolok berasal dari kata Siundol
                 yang artinya <i>"Dangkal"</i> dan kata Dolok yang artinya <i>"di Atas"</i>. Dengan demikian 
                 Siundol Dolok dapat diartikan <b>"di atas desa yang ada di sekitarnya"</b>.
-                Terletak di Kec. Sosopan Kab. Padang Lawas, yang memiliki
-                penduduk ... jiwa serta mata pencarian di sektor pertanian dan perkebunan
-                Untuk wilayah memiliki luas ... 
+                Terletak di Kec. Sosopan Kab. Padang Lawas. Luas pemukiman 2ha memiliki
+                penduduk 352 jiwa serta mata pencaharian di sektor pertanian dan perkebunan
             </p>
         </div>
   </section>
@@ -47,9 +46,9 @@ export default {
             font-size: 15px;
             font-weight: bold;
             text-align: center;
-            
-            
-
+        }
+        .profil {
+            padding: 70px 0px 0px;
         }
     }
 
