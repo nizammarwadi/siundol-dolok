@@ -51,7 +51,6 @@ export default {
     components: {
         ButtonElement: Button,
     }
-
 }
 </script>
 
@@ -83,13 +82,10 @@ export default {
         }
         .lead{
             font-size: 14px;
-
         }
         .carousel-item img{
             width: 100%;
             height: 350px;
         }
    } 
-
-
 </style>

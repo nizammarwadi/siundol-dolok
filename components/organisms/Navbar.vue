@@ -1,7 +1,7 @@
 <template>
   <div>
       <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <img class="navbar-brand palas ml-5" src="~/assets/image/padang-lawas.png" width="50px" height="60px">
+        <img class="navbar-brand palas" src="~/assets/image/padang-lawas.png" width="50px" height="60px">
         <div class="logo mr-auto">
             <label for="siundol" style="font-weight:bold">SIUNDOL DOLOK</label>
             <p>Kabupaten Padang Lawas</p>
@@ -129,6 +129,7 @@ export default {
     }
     .palas {
         object-fit: contain;
+        margin-left: 35px;
     }
     .logo {
         color: #f8f9fa;
@@ -140,5 +141,11 @@ export default {
         .logo {
             font-size: 13px;
         }
+       .navbar-nav {
+           margin-right: 0px;
+       }
+       .palas {
+           margin-left: 0px;
+       }
     }
 </style>
